@@ -45,9 +45,9 @@ From the project root, run the script using Podman:
 podman run --rm \
   --network host \
   -v "$(pwd)":/app:Z \
-  -w /app/scripts \
+  -w /app/src \
   node:20 \
-  bash -c "npm install proj4 shapefile @turf/centroid && node build_cities_csv_from_linz.js"
+  bash -c "npm install proj4 shapefile @turf/centroid && node build_cities_datafile_from_linz.js"
 ```
 
 This will:
