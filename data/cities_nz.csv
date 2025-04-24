@@ -1,4 +1,4 @@
-uuid,source_id,name,intermediate_category,type,type_name,land_area,area_sq_km,override_name,latitude,longitude
+uuid,source_id,name,intermediate_category_id,intermediate_category_name,type,type_name,land_area,area_sq_km,override_name,latitude,longitude
 f2ef3cd2-1184-48b6-b400-e92f6b238eff,1001,Auckland,101,Urban core,1,Metropolitan area,605.6686872599984,607.2711194799982,,-36.90272245423798,174.77487552321776
 046bdd84-c086-41af-b7a3-7a374644d2ff,1002,Hamilton,101,Urban core,1,Metropolitan area,110.37310035000021,110.37310035000021,,-37.78693984460282,175.28219898519504
 f437577d-e06c-44d4-9288-457ffeae46d0,1003,Tauranga,101,Urban core,1,Metropolitan area,141.91432144000004,142.15147825000008,,-37.70198451383706,176.19200184615255

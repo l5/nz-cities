@@ -95,7 +95,7 @@ await shapefile.open(RAW_SHAPE, undefined, { encoding: 'utf-8' })
   .catch(error => console.error('❌ Error reading shapefile:', error));
 
 const allRows = [
-  'uuid,source_id,name,intermediate_category,type,type_name,land_area,area_sq_km,override_name,latitude,longitude',
+  'uuid,source_id,name,intermediate_category_id,intermediate_category_name,type,type_name,land_area,area_sq_km,override_name,latitude,longitude',
   ...Array.from(new Set([
     ...[...existingRows.entries()].map(([id, oldRow]) => {
       const updated = updatedRows.get(id);
